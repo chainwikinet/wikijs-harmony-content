@@ -2,7 +2,7 @@
 title: Network Assets
 description: 
 published: true
-date: 2021-05-17T20:26:37.810Z
+date: 2021-05-17T20:43:14.180Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-17T20:26:37.810Z
@@ -10,7 +10,7 @@ dateCreated: 2021-05-17T20:26:37.810Z
 
 # Bridge to Ethereum
 
-There is a contract called `BridgedToken` that allows tokens to be bridged between Harmony and Ethereum.  The token name is contained in the `name` variable.
+There is a contract called `BridgedToken` that allows tokens to be bridged between Harmony and Ethereum.  The token name is contained in the `name` variable, and the token address on the _other_ blockchain is contained in the `ethTokenAddr` variable (this is somewhat confusing!).
 
 Harmony Bridge on Ethereum: 
 https://etherscan.io/address/0x4d34e61caf7a3622759d69e48ccdeb8dee5021e8
@@ -18,10 +18,13 @@ https://etherscan.io/address/0x4d34e61caf7a3622759d69e48ccdeb8dee5021e8
 All bridged tokens are registered here:
 https://etherscan.io/address/0x1bd0029385f95ad2584cdfaf5c19f3f20651def6#internaltx
 
+Watch bridge transactions: https://be1.bridge.hmny.io/operations/?size=100&page=0
+
 ## Harmony ONE (Native Asset)
 
 - BridgedToken: https://etherscan.io/address/0xd5cd84d6f044abe314ee7e414d37cae8773ef9d3
 - mint on Ethereum: https://etherscan.io/tx/0x0227e7104088ceebf04413d07624548d9b468e08904208ba5a7a86a19ebcfb7e
+- burn on Ethereum: https://etherscan.io/tx/0x91a2145de909848179c5e8f17957cfb39ecbdd9514aaf19bb1dd541b2e1b3dff
 
 ## Viper (Viper Exchange)
 - Native token: https://explorer.harmony.one/#/address/one1afvfayllrzc6ru0fhtr7705x4d32mhrewz4c77
@@ -35,7 +38,8 @@ https://etherscan.io/address/0x1bd0029385f95ad2584cdfaf5c19f3f20651def6#internal
 
 ## 1LMA
 
-- https://etherscan.io/token/0xae84f29b0c8e395cadf0d3448eb48843f1d49307#balances
+- BridgedToken: https://etherscan.io/token/0xae84f29b0c8e395cadf0d3448eb48843f1d49307
+- mint on Ethereum: https://etherscan.io/tx/0xb98145f6018a8a8d6f831fcb7a403f8e4ba3c5fdc99acf4f45cb43fa2871bd44/advanced
 
 ## Accidents
 
