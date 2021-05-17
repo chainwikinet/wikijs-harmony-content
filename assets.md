@@ -2,7 +2,7 @@
 title: Network Assets
 description: 
 published: true
-date: 2021-05-17T20:43:14.180Z
+date: 2021-05-17T21:43:08.992Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-17T20:26:37.810Z
@@ -17,6 +17,7 @@ https://etherscan.io/address/0x4d34e61caf7a3622759d69e48ccdeb8dee5021e8
 
 All bridged tokens are registered here:
 https://etherscan.io/address/0x1bd0029385f95ad2584cdfaf5c19f3f20651def6#internaltx
+(this is probably the HRC20EthManager.sol contract: https://github.com/harmony-one/ethhmy-bridge/blob/9ac7d9154f241606e362d0e1285b8417cc4587ee/contracts/hrc20/HRC20EthManager.sol)
 
 Watch bridge transactions: https://be1.bridge.hmny.io/operations/?size=100&page=0
 
